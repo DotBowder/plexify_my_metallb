@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: plex-config
+  namespace: plex
+data:
+  ADVIERTISE_IP: https://plex.k3s.example.com:32400/
+
